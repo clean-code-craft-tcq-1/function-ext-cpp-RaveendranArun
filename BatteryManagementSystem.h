@@ -29,13 +29,13 @@ typedef enum
 class CBMSParam
 {
 protected:
+    float m_minThreshold;
+    float m_maxThreshold;
+    Language m_language;
     string m_paramName;
     string m_errMsg;
     string m_minWarnMsg;
     string m_maxWarnMsg;
-    Language m_language;
-    float m_minThreshold;
-    float m_maxThreshold;
     float m_tolerance;
 public:
     CBMSParam(float min, float max, Language language, string name);
