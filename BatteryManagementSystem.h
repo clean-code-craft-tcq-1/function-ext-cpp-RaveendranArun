@@ -2,7 +2,7 @@
 #define BATTERY_MANAGMENT_SYSTEM_H
 
 #include <iostream>
-
+#include <assert.h>
 
 using namespace std;
 
